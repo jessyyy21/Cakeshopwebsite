@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    background:#eef7ff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.form-box{
+    width:700px;
+    background:white;
+    border-radius:15px;
+}
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#6ea8fe;
+    box-shadow:0 0 8px rgba(110,168,254,0.4);
+}
+
+.btn-primary{
+    background:#6ea8fe;
+    border:none;
+    border-radius:10px;
+}
+
+.btn-primary:hover{
+    background:#4d8df5;
+}
