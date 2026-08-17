@@ -1,42 +1,615 @@
-<html>
-    <head>
-        <title>home</title>
-        <style>
-            .j{
-                text-align: center;
-                background-color: bisque;
-                padding: 40px 10%;
-                color: rgb(109, 14, 14);
-            }
-            p{
-                text-align: center;
-                color: rgb(18, 12, 10);
-                padding: 20px 5%;
-                
-            }
-            h3{
-                text-align: center;
-                margin: 15px 0%;
-                color: firebrick;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="j">
-        <h1>about us</h1>
-        <p>At Sweet Delights Bakery, we believe every celebration deserves a delicious cake. Our passion is creating freshly baked cakes that bring joy to birthdays, weddings, anniversaries, and every special moment. Using premium ingredients and traditional baking techniques, we ensure every cake is soft, flavorful, and beautifully crafted.</p>
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <title>Cake Bee</title>
+
+</head>
+
+
+<body class="bg-light">
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-3" href="#">
+            🍰 Cake Bee
+        </a>
+
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="p1.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        Login
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled">
+                        Disabled
+                    </a>
+                </li>
+
+            </ul>
+
         </div>
-        <div class="j">
-        <h1>What We Offer</h1>
+
+    </div>
+
+</nav>
+
+
+<!-- ================= WELCOME ================= -->
+
+<div class="container my-4">
+
+    <div class="p-5 text-center bg-white rounded-4 shadow">
+
+        <h1 class="display-5 fw-bold text-danger">
+            🎂 Welcome To Cake Bee
+        </h1>
+
+        <p class="lead text-secondary">
+            Delicious cakes made specially for you ❤️
+        </p>
+
+        <a href="#cakes" class="btn btn-danger btn-lg">
+            Explore Cakes
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CAROUSEL ================= -->
+
+<div class="container mb-5">
+
+    <div id="cakeCarousel"
+         class="carousel slide carousel-fade shadow rounded-4 overflow-hidden"
+         data-bs-ride="carousel">
+
+
+        <!-- Indicators -->
+
+        <div class="carousel-indicators">
+
+            <button type="button"
+                    data-bs-target="#cakeCarousel"
+                    data-bs-slide-to="0"
+                    class="active">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#cakeCarousel"
+                    data-bs-slide-to="1">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#cakeCarousel"
+                    data-bs-slide-to="2">
+            </button>
+
         </div>
-        <h3>🎂 Freshly Baked Cakes</h3>
-        <p>From classic vanilla and rich chocolate to crunchy nuts and custom creations, every cake is baked fresh with care and quality</p>
-        <h3>🎉 Custom Celebration Cakes</h3>
-        <p>We design personalized cakes for birthdays, weddings, anniversaries, baby showers, and other special occasions to make your celebrations unforgettable</p>
-        <h3>🚚 Fast & Reliable Delivery</h3>
-        <p>Enjoy fresh cakes delivered right to your doorstep, ensuring every order arrives on time and in perfect condition.</p>
-        <h3>❤️ Quality You Can Trust</h3>
-        <p>Customer satisfaction is at the heart of everything we do. We are committed to delivering delicious cakes, exceptional service, and memorable experiences with every order.</p>
-        
-    </body>
-    </html>
+
+
+        <!-- Images -->
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="b7.jpg"
+                     class="d-block w-100"
+                     style="height:400px; object-fit:cover;"
+                     alt="Cake">
+
+                <div class="carousel-caption d-none d-md-block">
+
+                    <div class="bg-dark bg-opacity-50 rounded p-3">
+
+                        <h2>Delicious Cakes</h2>
+
+                        <p>
+                            Freshly baked cakes for every occasion
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <img src="b8.jpg"
+                     class="d-block w-100"
+                     style="height:400px; object-fit:cover;"
+                     alt="Cake">
+
+                <div class="carousel-caption d-none d-md-block">
+
+                    <div class="bg-dark bg-opacity-50 rounded p-3">
+
+                        <h2>Special Cakes</h2>
+
+                        <p>
+                            Make your celebrations sweeter
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <img src="b9.jpg"
+                     class="d-block w-100"
+                     style="height:400px; object-fit:cover;"
+                     alt="Cake">
+
+                <div class="carousel-caption d-none d-md-block">
+
+                    <div class="bg-dark bg-opacity-50 rounded p-3">
+
+                        <h2>Sweet Moments</h2>
+
+                        <p>
+                            Taste the happiness with Cake Bee
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Previous -->
+
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#cakeCarousel"
+                data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+            <span class="visually-hidden">
+                Previous
+            </span>
+
+        </button>
+
+
+        <!-- Next -->
+
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#cakeCarousel"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+            <span class="visually-hidden">
+                Next
+            </span>
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CAKES ================= -->
+
+<div class="container" id="cakes">
+
+
+    <div class="text-center mb-5">
+
+        <h2 class="fw-bold text-danger">
+            Our Delicious Cakes
+        </h2>
+
+        <p class="text-secondary">
+            Choose your favourite cake
+        </p>
+
+        <hr class="w-25 mx-auto">
+
+    </div>
+
+
+    <!-- ================= ROW 1 ================= -->
+
+    <div class="row g-4 mb-4">
+
+
+        <!-- Chocolate Cake -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card h-100 border-0 shadow">
+
+                <img src="c1.jpg"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Chocolate Cake">
+
+                <div class="card-body">
+
+                    <span class="badge text-bg-danger mb-2">
+                        Popular
+                    </span>
+
+                    <h5 class="card-title fw-bold">
+                        Chocolate Cake
+                    </h5>
+
+                    <p class="card-text text-secondary">
+
+                        Our Vanilla Cake is soft, fluffy, and baked
+                        with premium ingredients for a rich, classic
+                        flavor. Perfect for birthdays, celebrations,
+                        or any sweet occasion, it's a delicious treat
+                        everyone will love.
+
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+
+                    <a href="user.html"
+                       class="btn btn-danger w-100">
+                        BUY
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Vanilla Cake -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card h-100 border-0 shadow">
+
+                <img src="c2.jpg"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Vanilla Cake">
+
+                <div class="card-body">
+
+                    <span class="badge text-bg-warning mb-2">
+                        Favourite
+                    </span>
+
+                    <h5 class="card-title fw-bold">
+                        Vanilla Cake
+                    </h5>
+
+                    <p class="card-text text-secondary">
+
+                        Our Vanilla Cake is soft, fluffy, and baked
+                        with premium ingredients for a rich, classic
+                        flavor. Perfect for birthdays, celebrations,
+                        or any sweet occasion, it's a delicious treat
+                        everyone will love.
+
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+
+                    <a href="user.html"
+                       class="btn btn-danger w-100">
+                        BUY
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Cup Cake -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card h-100 border-0 shadow">
+
+                <img src="c3.jpg"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Cup Cake">
+
+                <div class="card-body">
+
+                    <span class="badge text-bg-info mb-2">
+                        Special
+                    </span>
+
+                    <h5 class="card-title fw-bold">
+                        Cup Cake
+                    </h5>
+
+                    <p class="card-text text-secondary">
+
+                        Our Vanilla Cake is soft, fluffy, and baked
+                        with premium ingredients for a rich, classic
+                        flavor. Perfect for birthdays, celebrations,
+                        or any sweet occasion, it's a delicious treat
+                        everyone will love.
+
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+
+                    <a href="user.html"
+                       class="btn btn-danger w-100">
+                        BUY
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= ROW 2 ================= -->
+
+    <div class="row g-4">
+
+
+        <!-- Redberry Cake -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card h-100 border-0 shadow">
+
+                <img src="c4.jpg"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Redberry Cake">
+
+                <div class="card-body">
+
+                    <span class="badge text-bg-success mb-2">
+                        New
+                    </span>
+
+                    <h5 class="card-title fw-bold">
+                        Redberry Cake
+                    </h5>
+
+                    <p class="card-text text-secondary">
+
+                        Our Vanilla Cake is soft, fluffy, and baked
+                        with premium ingredients for a rich, classic
+                        flavor. Perfect for birthdays, celebrations,
+                        or any sweet occasion, it's a delicious treat
+                        everyone will love.
+
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+
+                    <a href="user.html"
+                       class="btn btn-danger w-100">
+                        BUY
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Hot Cake -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card h-100 border-0 shadow">
+
+                <img src="c5.jpg"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Hot Cake">
+
+                <div class="card-body">
+
+                    <span class="badge text-bg-primary mb-2">
+                        Trending
+                    </span>
+
+                    <h5 class="card-title fw-bold">
+                        Hot Cake
+                    </h5>
+
+                    <p class="card-text text-secondary">
+
+                        Our Vanilla Cake is soft, fluffy, and baked
+                        with premium ingredients for a rich, classic
+                        flavor. Perfect for birthdays, celebrations,
+                        or any sweet occasion, it's a delicious treat
+                        everyone will love.
+
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+
+                    <a href="user.html"
+                       class="btn btn-danger w-100">
+                        BUY
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Red Velvet Cake -->
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card h-100 border-0 shadow">
+
+                <img src="c6.jpg"
+                     class="card-img-top"
+                     style="height:250px; object-fit:cover;"
+                     alt="Red Velvet Cake">
+
+                <div class="card-body">
+
+                    <span class="badge text-bg-danger mb-2">
+                        Best Seller
+                    </span>
+
+                    <h5 class="card-title fw-bold">
+                        Red Velvet Cake
+                    </h5>
+
+                    <p class="card-text text-secondary">
+
+                        Our Vanilla Cake is soft, fluffy, and baked
+                        with premium ingredients for a rich, classic
+                        flavor. Perfect for birthdays, celebrations,
+                        or any sweet occasion, it's a delicious treat
+                        everyone will love.
+
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+
+                    <a href="user.html"
+                       class="btn btn-danger w-100">
+                        BUY
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white mt-5">
+
+    <div class="container py-4">
+
+        <div class="row text-center text-md-start">
+
+            <div class="col-md-6">
+
+                <h5 class="fw-bold">
+                    🍰 Cake Bee
+                </h5>
+
+                <p class="text-secondary">
+                    Delicious cakes for every special occasion.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-6 text-md-end">
+
+                <p class="mb-1">
+                    Home | About Us | Login
+                </p>
+
+                <small class="text-secondary">
+                    © 2026 Cake Bee
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+</body>
+
+</html>
